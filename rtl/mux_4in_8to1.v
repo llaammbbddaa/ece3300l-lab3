@@ -9,4 +9,18 @@ module mux_4in_8to1 (
 //
 // Complete this block
 //
+
+    always @(*)
+        case(sel)
+            0: out = in0;
+            1: out = in1;
+            2: out = in2;
+            3: out = in3;
+            4: out = in4;
+            5: out = in5;
+            6: out = in6;
+            7: out = in7;
+         endcase
+
+
 endmodule
