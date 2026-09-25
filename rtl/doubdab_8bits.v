@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module doubdab_8bits(input [7:0] b_in, output [11:0] bcd_out);
+module doubdab_8bits(input [7:0] b_in, output reg [11:0] bcd_out);
 
 //
 // Fill in the connections and wires to implement the double-dabble algorithm
