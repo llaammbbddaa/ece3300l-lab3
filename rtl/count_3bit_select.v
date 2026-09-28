@@ -1,3 +1,4 @@
+// mentioned in calc_7seg
 `timescale 1ns / 1ps
 
 module count_3bit_select(

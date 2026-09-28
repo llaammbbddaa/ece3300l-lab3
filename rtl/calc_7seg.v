@@ -1,3 +1,5 @@
+// main
+
 `timescale 1ns / 1ps
 
 module calc_7seg(

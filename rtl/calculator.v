@@ -1,3 +1,5 @@
+// mentioned in calc_7seg
+
 module calculator (
            input [1:0]    OP, // OP, last two switches 8 & 9
            input [3:0]    A, B, // A and B are both designated switches on the board, A 0-3, B 4-7

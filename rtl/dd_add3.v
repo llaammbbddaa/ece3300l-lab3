@@ -1,3 +1,5 @@
+// mentioned in doubdab_8bits
+
 `timescale 1ns / 1ps
 
 module dd_add3(
